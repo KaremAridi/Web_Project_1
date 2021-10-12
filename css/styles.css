@@ -1,3 +1,81 @@
+:root {
+    --main: #3F784C;
+    --white: #F0E2E7;
+    --blue: #3F84E5;
+    --dark-blue: #0A2463;
+    --orange: #C17817;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header - Nav*/
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--main);
+    width: 100%;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+    justify-content: right;
+    text-align: right;
+    font-size: 21px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    position: relative;
+    top: 0px;
+    transition: top ease 0.25s;
+
+}
+
+nav ul li a:hover {
+    text-shadow: 1px 1px 10px white;
+    top: -3px;
+    transition: top ease 0.25s;
+}
+
+nav ul li a:active {
+    color: var(--orange);
+}
+
+/* Logo */
+header a img {
+    display: initial;
+    vertical-align: 5px;
+    margin: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
 /* Extra-Small Devices */
 @media (max-width:600px) {
 
