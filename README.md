@@ -1,2 +1,3 @@
 # Web_Project_1
-Website using Vanilla HTML &amp; CSS
+This website uses Vanilla HTML &amp; CSS
+It provides information on Covid-19 and how to register for the vaccine.
