@@ -4,7 +4,6 @@
 :root {
   --main: #3f784c;
   --white-green: #e4f0e2;
-  --blue: #3f84e5;
   --dark-blue: #0a2463;
   --orange: #c17817;
 }
@@ -43,6 +42,15 @@ h1 {
   font-family: "Roboto-Bold", sans-serif;
   color: var(--dark-blue);
   text-align: center;
+}
+
+hr {
+  margin: 20px 0 20px 0;
+}
+
+.main {
+  margin: 40px;
+  padding: 5px;
 }
 
 /* Header - Nav*/
@@ -276,6 +284,60 @@ footer ul li a:hover {
 
 footer ul li a:active {
   color: var(--white-green);
+}
+
+/* --------------------------------- */
+/* PROTECTION PAGE */
+/* --------------------------------- */
+
+.protection_description {
+  font-family: "Roboto-Thin", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.protection_row {
+  display: flex;
+  align-items: center;
+}
+
+.protection_img {
+  box-shadow: 1px 1px 4px var(--main);
+  border-radius: 10%;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  padding-top: 1%;
+  color: var(--dark-blue);
+}
+
+.protection_img img {
+    margin-top: 2px;
+  padding: 5px;
+  width: 90%;
+  border-radius: 10%;
+}
+
+.protection_row p {
+  color: var(--dark-blue);
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.protection_row2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.protection_row2 p {
+  margin-right: 40px;
+  font-size: 30px;
+  color: var(--dark-blue);
 }
 
 /* Extra-Small Devices */
