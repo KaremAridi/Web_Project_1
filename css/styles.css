@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:active {
-    color: var(--orange);
+    color: var(--white-green);
 }
 
 /* Logo */
@@ -172,7 +172,6 @@ header a img {
     align-items: center;
 }
 
-
 .flex-container a :hover {
     background-color: var(--white-green);
     transition-duration: 0.5s;
@@ -191,7 +190,11 @@ header a img {
 
 /* Testimonial */
 
-.flex-container .testimonials{
+.testimonial {
+    justify-content: space-around;
+}
+
+.flex-container .testimonials {
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 4px var(--main);
@@ -201,22 +204,78 @@ header a img {
     margin: 20px;
     align-items: center;
     color: var(--dark-blue);
-    margin-right: 100px;
 }
 
-.flex-container .testimonials img{
+.flex-container .testimonials img {
     width: 150px;
     height: 200px;
     border-radius: 20%;
     margin-top: 20px;
 }
 
-.flex-container .testimonials h2{
-    font-family: 'Roboto-BoldItalic',sans-serif;
+.flex-container .testimonials h2 {
+    font-family: 'Roboto-BoldItalic', sans-serif;
 }
 
-.flex-container .testimonials p{
-    font-family: 'Roboto-Thin',sans-serif;
+.flex-container .testimonials p {
+    font-family: 'Roboto-Thin', sans-serif;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--main);
+    width: 100%;
+}
+
+footer img {
+    margin: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    font-size: 21px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer h2 {
+    color: white;
+    font-family: 'Roboto-Thin', sans-serif;
+}
+
+.footer-icon {
+    color: white;
+    margin: 0 4% 0 4%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    position: relative;
+    top: 0px;
+    transition: top ease 0.25s;
+}
+
+footer ul li a:hover {
+    text-shadow: 1px 1px 10px white;
+    top: -3px;
+    transition: top ease 0.25s;
+}
+
+footer ul li a:active {
+    color: var(--white-green);
 }
 
 /* Extra-Small Devices */
