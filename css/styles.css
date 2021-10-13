@@ -6,6 +6,26 @@
     --orange: #C17817;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
