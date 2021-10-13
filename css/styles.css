@@ -340,6 +340,20 @@ footer ul li a:active {
   color: var(--dark-blue);
 }
 
+
+/* --------------------------------- */
+/* Statistics PAGE */
+/* --------------------------------- */
+
+.statistics{
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics iframe{
+    width: 45%;
+}
+
 /* Extra-Small Devices */
 
 @media (max-width: 600px) {
