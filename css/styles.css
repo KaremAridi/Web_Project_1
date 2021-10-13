@@ -131,6 +131,24 @@ header a img {
     font-size: 25px;
 }
 
+/* Flex Container */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-container>div {
+    display: inline-block;
+    box-shadow: 1px 1px 4px var(--main);
+    border-radius: 10%;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
 
 /* Extra-Small Devices */
 
