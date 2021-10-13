@@ -131,7 +131,14 @@ header a img {
     font-size: 25px;
 }
 
-/* Flex Container */
+/* Headlines Flex Container */
+
+h1 {
+    font-family: 'Roboto-Bold' ,sans-serif;
+    color: var(--dark-blue);
+    text-align: center;
+    
+}
 
 .flex-container {
     display: flex;
@@ -141,13 +148,21 @@ header a img {
     text-align: center;
 }
 
-.flex-container>div {
-    display: inline-block;
+.flex-container div {
+    display: flex;
+    flex-direction: column;
     box-shadow: 1px 1px 4px var(--main);
     border-radius: 10%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin: 10px;
+    align-items: center;
+}
+
+.flex-container div img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
 }
 
 /* Extra-Small Devices */
