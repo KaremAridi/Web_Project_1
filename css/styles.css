@@ -341,12 +341,18 @@ footer ul li a:active {
 }
 
 /* --------------------------------- */
+/* Normal Life PAGE */
+/* --------------------------------- */
+
+
+
+/* --------------------------------- */
 /* Statistics PAGE */
 /* --------------------------------- */
 
 .statistics {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .statistics iframe {
