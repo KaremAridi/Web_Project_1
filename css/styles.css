@@ -316,7 +316,7 @@ footer ul li a:active {
 }
 
 .protection_img img {
-    margin-top: 2px;
+  margin-top: 2px;
   padding: 5px;
   width: 90%;
   border-radius: 10%;
@@ -340,18 +340,19 @@ footer ul li a:active {
   color: var(--dark-blue);
 }
 
-
 /* --------------------------------- */
 /* Statistics PAGE */
 /* --------------------------------- */
 
-.statistics{
-    display: flex;
-    justify-content: space-between;
+.statistics {
+  display: flex;
+  justify-content: space-between;
 }
 
-.statistics iframe{
-    width: 45%;
+.statistics iframe {
+  width: 45%;
+  box-shadow: 1px 1px 4px var(--main);
+  border-radius: 10%;
 }
 
 /* Extra-Small Devices */
