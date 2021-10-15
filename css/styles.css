@@ -411,13 +411,13 @@ input[type="text"] {
 /* Contact Us PAGE */
 /* --------------------------------- */
 
-.flex-contactus {
+.flex-contactus, .flex-vacc {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-input[type="email"],
+input[type="email"], input[type="number"],
 textarea {
   width: 100%;
   padding: 12px 20px;

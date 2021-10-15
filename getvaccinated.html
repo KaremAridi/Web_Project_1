@@ -8,7 +8,6 @@
     <title>Get Vaccinated - Covid-19</title>
   </head>
   <body>
-
     <!-- Nav -->
     <header>
       <a href="index.html"><img src="icon/logo.png" alt="Logo" /></a>
@@ -22,33 +21,111 @@
         </ul>
       </nav>
     </header>
-    
+    <div class="main">
+      <h1>Get Vaccinated!</h1>
+      <p class="main_description">
+        You can easily receive your vaccine through our website by filling out
+        the form below.
+      </p>
+      <hr />
+      <div class="flex-vacc">
+        <form class="forms">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            placeholder="John"
+          />
+          <br />
+          <br />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            required
+            placeholder="Sims"
+          />
+          <br />
+
+          <p>Gender</p>
+          <input type="radio" id="male" name="gender" value="male" checked />
+          Male
+          <input type="radio" id="female" name="gender" value="female" /> Female
+          <br /><br />
+
+          <label for="birthday">Date of birth:</label>
+          <input type="date" id="birthday" name="birthday" />
+          <br /><br />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="john@mail.com"
+          />
+          <br />
+          <br />
+
+          <label for="phonenumber">Phone Number</label>
+          <input
+            type="text"
+            name="phonenumber"
+            id="phonenumber"
+            required
+            placeholder="Foramt: 03000000"
+            pattern=".{8}"
+          />
+          <br />
+          <br />
+
+          <label for="vaccine">Vaccine: </label>
+          <select id="vaccine" name="vaccine">
+            <option>Choose your vaccine</option>
+            <option value="Pfizer">Pfizer</option>
+            <option value="Astrazeneca">Astrazeneca</option>
+            <option value="Sinopharm">Sinopharm</option>
+            <option value="Sputnik V">Sputnik V</option>
+            </select
+          ><br />
+
+          <button class="button">
+            Send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
     <!-- Footer -->
     <footer>
-        <a href="index.html"><img src="icon/logo.png" alt="Logo" /></a>
-        <div>
-          <h2><i>Get Vaccinated.. Stay Safe!</i></h2>
-          <a href="https://www.facebook.com/" target="_blank"
-            ><span class="fab fa-facebook-f fa-3x footer-icon"></span
-          ></a>
-          <a href="https://www.instagram.com" target="_blank"
-            ><span class="fab fa-instagram fa-3x footer-icon"></span
-          ></a>
-          <a href="https://www.twitter.com" target="_blank"
-            ><span class="fab fa-twitter fa-3x footer-icon"></span
-          ></a>
-          <a href="https://www.linkedin.com" target="_blank"
-            ><span class="fab fa-linkedin fa-3x footer-icon"></span
-          ></a>
-        </div>
-        <ul>
-          <li><a href="protection.html">Protect Yourself</a></li>
-          <li><a href="normal.html">Normal Life</a></li>
-          <li><a href="statistics.html">Statistics</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
-          <li><a href="getvaccinated.html">Get Vaccinated!</a></li>
-        </ul>
-      </footer>
-      <script src="fontawesome.js"></script>
+      <a href="index.html"><img src="icon/logo.png" alt="Logo" /></a>
+      <div>
+        <h2><i>Get Vaccinated.. Stay Safe!</i></h2>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><span class="fab fa-facebook-f fa-3x footer-icon"></span
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><span class="fab fa-instagram fa-3x footer-icon"></span
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><span class="fab fa-twitter fa-3x footer-icon"></span
+        ></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><span class="fab fa-linkedin fa-3x footer-icon"></span
+        ></a>
+      </div>
+      <ul>
+        <li><a href="protection.html">Protect Yourself</a></li>
+        <li><a href="normal.html">Normal Life</a></li>
+        <li><a href="statistics.html">Statistics</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="getvaccinated.html">Get Vaccinated!</a></li>
+      </ul>
+    </footer>
+    <script src="fontawesome.js"></script>
   </body>
 </html>
