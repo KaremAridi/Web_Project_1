@@ -230,6 +230,15 @@ header a img {
   font-family: "Roboto-Thin", sans-serif;
 }
 
+.forms .button{
+  width: 100%;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 18px;
+  justify-content: center;
+  cursor: pointer;
+}
+
 /* Footer */
 
 footer {
@@ -404,6 +413,8 @@ input[type="text"] {
 
 .flex-contactus {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 input[type="email"],
@@ -423,6 +434,20 @@ textarea {
   justify-content: center;
   cursor: pointer;
 }
+
+.googlemaps{
+  text-align: center;
+  padding: 20px;
+  margin-left: 10px;
+  box-shadow: 1px 1px 4px var(--main);
+  border-radius: 10%;
+  justify-content: center;
+}
+
+.googlemaps h2{
+  color: var(--dark-blue);
+}
+
 
 /* Extra-Small Devices */
 
