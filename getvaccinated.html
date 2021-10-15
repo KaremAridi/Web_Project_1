@@ -55,11 +55,13 @@
           <input type="radio" id="male" name="gender" value="male" checked />
           Male
           <input type="radio" id="female" name="gender" value="female" /> Female
-          <br /><br />
+          <br />
+          <br />
 
           <label for="birthday">Date of birth:</label>
-          <input type="date" id="birthday" name="birthday" />
-          <br /><br />
+          <input type="date" id="birthday" name="birthday" required/>
+          <br />
+          <br />
 
           <label for="email">Email</label>
           <input
@@ -78,21 +80,21 @@
             name="phonenumber"
             id="phonenumber"
             required
-            placeholder="Foramt: 03000000"
+            placeholder="Format: 03000000"
             pattern=".{8}"
           />
           <br />
           <br />
 
           <label for="vaccine">Vaccine: </label>
-          <select id="vaccine" name="vaccine">
+          <select id="vaccine" name="vaccine" required>
             <option>Choose your vaccine</option>
             <option value="Pfizer">Pfizer</option>
             <option value="Astrazeneca">Astrazeneca</option>
             <option value="Sinopharm">Sinopharm</option>
-            <option value="Sputnik V">Sputnik V</option>
-            </select
+            <option value="Sputnik V">Sputnik V</option></select
           ><br />
+          <br />
 
           <button class="button">
             Send <i class="fas fa-paper-plane"></i>
