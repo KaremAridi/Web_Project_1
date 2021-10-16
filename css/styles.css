@@ -461,8 +461,85 @@ textarea {
 /* Small Devices */
 
 @media (min-width: 600px) and (max-width: 768px) {
-  body {
+  /* body {
     background-color: green;
+  } */
+
+  li {
+    font-size: 12px;
+  }
+
+  /* Logo */
+  header a img {
+  }
+
+  .banner {
+    padding: 10px;
+    height: 250px;
+  }
+
+  .banner_p1 {
+    font-size: 30px;
+  }
+
+  .banner_p2 {
+    font-size: 20px;
+  }
+
+  /* h2 {
+    font-size: 30px;
+  } */
+
+  /* .testimonials i {
+    font-size: 25px;
+  } */
+
+  .flex-container .headline {
+    box-shadow: 2px 2px 30px var(--main);
+    width: 150px;
+    height: 250px;
+    margin: 10px;
+  }
+
+  .flex-container .headline img {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 130px;
+  }
+
+  .flex-container .headline p {
+    font-size: 23px;
+  }
+
+  .flex-container .testimonials {
+    box-shadow: 5px 5px 40px var(--main);
+    width: 200px;
+    height: 300px;
+  }
+
+  .flex-container .testimonials img {
+    width: 100px;
+    height: 150px;
+  }
+  .footer-icon {
+    font-size: 30px;
+  }
+
+  footer img {
+    margin: 10px;
+  }
+
+  footer ul {
+    padding: 5px;
+  }
+
+  footer ul li a {
+    font-size: 20px;
+  }
+
+  footer a img {
+    background-color: black;
+    width: 100px;
   }
 }
 
