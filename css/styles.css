@@ -458,86 +458,108 @@ textarea {
   } */
 
   li {
-    font-size: 18px;
+    visibility: hidden;
+  }
+
+  nav ul {
+    padding: 5px;
   }
 
   /* Logo */
+
+  nav{
+   visibility: hidden;
+   position: absolute;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+  }
   header a img {
+    width: 50px;
   }
 
   .banner {
-    padding: 10px;
-    height: 270px;
+    padding: 5px;
+    height: 150px;
   }
 
   .banner_p1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .banner_p2 {
-    font-size: 22px;
+    font-size: 15px;
   }
 
-  /* h1 {
-    font-size: 35px;
-  } */
+  h1 {
+    font-size: 20px;
+  }
 
-  /* h2 {
-    font-size: 30px;
-  } */
+  h2 {
+    font-size: 15px;
+  }
 
   .testimonials i {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .flex-container .headline {
     box-shadow: 1px 1px 20px var(--main);
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 150px;
     margin: 20px;
   }
 
   .flex-container .headline img {
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 200px;
+    width: 70px;
   }
 
   .flex-container .headline p {
-    font-size: 25px;
+    font-size: 13px;
   }
 
   .flex-container .testimonials {
-    box-shadow: 5px 5px 40px var(--main);
-    width: 300px;
-    height: 400px;
+    box-shadow: 2px 2px 20px var(--main);
+    width: 100px;
+    height: 200px;
   }
 
   .flex-container .testimonials img {
-    width: 150px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
   }
+
+  .testimonials i {
+    font-size: 10px;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
   .footer-icon {
-    font-size: 50px;
+    font-size: 20px;
   }
 
   footer img {
-    margin: 20px;
+    margin: 10px;
   }
 
   footer ul {
-    padding: 10px;
+    padding: 5px;
   }
 
   footer ul li a {
-    font-size: 25px;
+    visibility: hidden;
+    position: absolute;
   }
 
   footer a img {
-    background-color: black;
-    width: 100px;
+    width: 50px;
   }
-
 }
 
 /* Small Devices */
@@ -712,7 +734,6 @@ textarea {
     background-color: black;
     width: 100px;
   }
-
 }
 
 /* Large Devices */
