@@ -452,7 +452,7 @@ textarea {
 
 /* Extra-Small Devices */
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   /* body {
     background-color: blue;
   } */
@@ -467,11 +467,11 @@ textarea {
 
   /* Logo */
 
-  nav{
-   visibility: hidden;
-   position: absolute;
+  nav {
+    visibility: hidden;
+    position: absolute;
   }
-  header{
+  header {
     display: flex;
     flex-direction: column;
   }
@@ -536,7 +536,7 @@ textarea {
     font-size: 10px;
   }
 
-  footer{
+  footer {
     flex-direction: column;
   }
 
@@ -575,6 +575,7 @@ textarea {
 
   /* Logo */
   header a img {
+    width: 70px;
   }
 
   .banner {
@@ -642,8 +643,7 @@ textarea {
   }
 
   footer a img {
-    background-color: black;
-    width: 100px;
+    width: 70px;
   }
 }
 
@@ -660,6 +660,7 @@ textarea {
 
   /* Logo */
   header a img {
+    width: 90px;
   }
 
   .banner {
@@ -715,7 +716,7 @@ textarea {
     height: 200px;
   }
   .footer-icon {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   footer img {
@@ -727,12 +728,11 @@ textarea {
   }
 
   footer ul li a {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   footer a img {
-    background-color: black;
-    width: 100px;
+    width: 80px;
   }
 }
 
@@ -745,10 +745,6 @@ textarea {
 
   li {
     font-size: 25px;
-  }
-
-  /* Logo */
-  header a img {
   }
 
   .banner {
@@ -804,7 +800,7 @@ textarea {
     height: 300px;
   }
   .footer-icon {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   footer img {
@@ -816,11 +812,10 @@ textarea {
   }
 
   footer ul li a {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   footer a img {
-    background-color: black;
     width: 100px;
   }
 }
@@ -838,6 +833,7 @@ textarea {
 
   /* Logo */
   header a img {
+    width: 100px;
   }
 
   .banner {
@@ -917,7 +913,6 @@ textarea {
   }
 
   footer a img {
-    background-color: black;
-    width: 100px;
+    width: 150px;
   }
 }
