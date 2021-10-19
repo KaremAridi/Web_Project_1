@@ -632,8 +632,25 @@ textarea {
   .flex-contactus input[type="email"],
   .flex-contactus input[type="number"],
   .flex-contactus input[type="text"],
-  .flex-contactus textarea {
+  .flex-contactus textarea,
+  .flex-vacc input[type="email"],
+  .flex-vacc input[type="number"],
+  .flex-vacc input[type="text"],
+  .flex-vacc input[type="date"],
+  .flex-vacc #vaccine {
+    font-size: 12px;
+  }
+
+  .flex-vacc #vaccine option{
+    font-size: 12px;
+  }
+
+  .flex-vacc p {
     font-size: 15px;
+  }
+  .flex-vacc input[type="radio"] {
+    width: 12px;
+    height: 12px;
   }
 
   .flex-contactus {
@@ -973,8 +990,6 @@ textarea {
     width: 90%;
     height: 60%;
   }
-
-  
 }
 
 /* Large Devices */
@@ -1060,7 +1075,6 @@ textarea {
     width: 100px;
   }
 
-  
   /* --------------------------------- */
   /* Contact Us PAGE */
   /* --------------------------------- */
@@ -1092,7 +1106,6 @@ textarea {
     width: 90%;
     height: 60%;
   }
-
 }
 
 /* Extra-Large Devices */
@@ -1259,14 +1272,31 @@ textarea {
   }
 
   /* --------------------------------- */
-  /* Contact Us PAGE */
+  /* Contact Us &VACC PAGE */
   /* --------------------------------- */
 
   .flex-contactus input[type="email"],
   .flex-contactus input[type="number"],
   .flex-contactus input[type="text"],
-  .flex-contactus textarea {
+  .flex-contactus textarea,
+  .flex-vacc input[type="email"],
+  .flex-vacc input[type="number"],
+  .flex-vacc input[type="text"],
+  .flex-vacc input[type="date"],
+  .flex-vacc #vaccine {
     font-size: 40px;
+  }
+
+  .flex-vacc #vaccine option{
+    font-size: 20px;
+  }
+
+  .flex-vacc p {
+    font-size: 50px;
+  }
+  .flex-vacc input[type="radio"] {
+    width: 100px;
+    height: 50px;
   }
 
   .flex-contactus {
