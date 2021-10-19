@@ -597,18 +597,33 @@ textarea {
   /* Normal Life PAGE */
   /* --------------------------------- */
 
-  .forms label{
+  .forms label {
     font-size: 15px;
   }
 
-  .forms textarea{
+  .forms textarea {
     font-size: 15px;
   }
 
-  .forms .button{
+  .forms .button {
     font-size: 15px;
   }
 
+  /* --------------------------------- */
+  /* Statistics PAGE */
+  /* --------------------------------- */
+
+  .statistics iframe {
+    max-height: 300px;
+    min-width: 100%;
+    margin-top: 10px;
+  }
+
+  .statistics{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 /* Small Devices */
@@ -727,6 +742,24 @@ textarea {
   .who {
     font-size: 15px;
   }
+
+  
+  /* --------------------------------- */
+  /* Statistics PAGE */
+  /* --------------------------------- */
+
+  .statistics iframe {
+    max-height: 400px;
+    width: 80%;
+    margin: 20px;
+  }
+
+  .statistics{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
 }
 
 /* Medium Devices */
@@ -837,8 +870,14 @@ textarea {
   }
 
   /* --------------------------------- */
-  /* Normal Life PAGE */
+  /* Statistics PAGE */
   /* --------------------------------- */
+
+  .statistics iframe {
+    max-height: 300px;
+  }
+
+ 
 }
 
 /* Large Devices */
@@ -1061,16 +1100,30 @@ textarea {
   /* Normal Life PAGE */
   /* --------------------------------- */
 
-
-  .forms label{
+  .forms label {
     font-size: 50px;
   }
 
-  .forms textarea{
+  .forms textarea {
     font-size: 50px;
   }
 
-  .forms .button{
+  .forms .button {
     font-size: 40px;
+  }
+
+  /* --------------------------------- */
+  /* Statistics PAGE */
+  /* --------------------------------- */
+
+  .statistics iframe {
+    max-width: 65%;
+    min-height: 800px;
+    box-shadow: 5px 5px 10px var(--main);
+    border-radius: 10%;
+  }
+
+  h5 {
+    font-size: 30px;
   }
 }
