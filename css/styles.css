@@ -68,6 +68,11 @@ nav {
   width: 100%;
 }
 
+.smallnav{
+  visibility: hidden;
+  position: absolute;
+}
+
 nav ul {
   display: flex;
   padding: 20px;
@@ -458,8 +463,21 @@ textarea {
     background-color: blue;
   } */
 
-  li {
+  .mainnav {
     visibility: hidden;
+    position: absolute;
+  }
+
+  .smallnav{
+    visibility: visible;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .smallnav li{
+    font-size: 20px;
   }
 
   nav ul {
@@ -468,10 +486,6 @@ textarea {
 
   /* Logo */
 
-  nav {
-    visibility: hidden;
-    position: absolute;
-  }
   header {
     display: flex;
     flex-direction: column;
@@ -641,7 +655,7 @@ textarea {
     font-size: 12px;
   }
 
-  .flex-vacc #vaccine option{
+  .flex-vacc #vaccine option {
     font-size: 12px;
   }
 
@@ -1110,7 +1124,7 @@ textarea {
 
 /* Extra-Large Devices */
 
-@media (min-width: 1500px) {
+@media (min-width: 2000px) {
   /* body{
     background-color: red;
   } */
@@ -1287,7 +1301,7 @@ textarea {
     font-size: 40px;
   }
 
-  .flex-vacc #vaccine option{
+  .flex-vacc #vaccine option {
     font-size: 20px;
   }
 
