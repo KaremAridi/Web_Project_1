@@ -348,6 +348,7 @@ footer ul li a:active {
   margin-right: 40px;
   font-size: 30px;
   color: var(--dark-blue);
+  text-align: end;
 }
 
 .who {
@@ -560,6 +561,37 @@ textarea {
   footer a img {
     width: 50px;
   }
+
+  /* -------- */
+  /* Protection */
+  /* -------- */
+
+  .main_description {
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+
+  .protection_img {
+    min-width: 70px;
+    height: 15%;
+  }
+
+  .protection_img img {
+    align-self: center;
+  }
+
+  .protection_row p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .protection_row2 p {
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .who {
+    font-size: 12px;
+  }
 }
 
 /* Small Devices */
@@ -644,6 +676,40 @@ textarea {
 
   footer a img {
     width: 70px;
+  }
+
+  /* -------- */
+  /* Protection */
+  /* -------- */
+  .main_description {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  .protection_img {
+    margin: 10px;
+    min-width: 150px;
+    height: 15%;
+
+  }
+
+  .protection_img img {
+    border-radius: 10%;
+    max-width: 150px;
+  }
+
+  .protection_row p {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .protection_row2 p {
+    margin-right: 20px;
+    font-size: 15px;
+  }
+
+  .who {
+    font-size: 15px;
   }
 }
 
@@ -733,6 +799,25 @@ textarea {
 
   footer a img {
     width: 80px;
+  }
+
+  /* ------------ */
+  /* PROTECTION */
+  /* ------------ */
+  .main_description {
+    font-size: 20px;
+  }
+
+  .protection_row p {
+    font-size: 20px;
+  }
+
+  .protection_img img {
+    padding: 10px;
+  }
+
+  .protection_row2 p {
+    font-size: 20px;
   }
 }
 
@@ -914,5 +999,41 @@ textarea {
 
   footer a img {
     width: 150px;
+  }
+
+  /* ---------------- */
+  /* PROTECTION */
+  /* ---------------- */
+
+  .main_description {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  .protection_row p {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+
+  .protection_img {
+    box-shadow: 5px 5px 10px var(--main);
+    width: 300px;
+    height: 250px;
+  }
+
+  .protection_img img {
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10%;
+  }
+
+  .protection_row2 p {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+
+  .who {
+    font-size: 30px;
   }
 }
