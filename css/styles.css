@@ -186,6 +186,10 @@ header a img {
   align-items: center;
 }
 
+.flex-container .headline p {
+color: var(--dark-blue);
+}
+
 .flex-container a :hover {
   background-color: var(--white-green);
   transition-duration: 0.5s;
