@@ -257,8 +257,9 @@ footer {
   background-color: var(--main);
   width: 100%;
 }
-footer div{
+footer div {
   text-align: center;
+  width: 30%;
 }
 
 footer img {
@@ -500,9 +501,13 @@ textarea {
   header {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
   }
+
   header a img {
     width: 50px;
+    margin: 10px auto auto auto;
   }
 
   .banner {
