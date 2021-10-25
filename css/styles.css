@@ -206,6 +206,12 @@ header a img {
   font-size: 25px;
 }
 
+.youtubevid{
+  width: 65%;
+  height: 500px;
+  border-radius: 20px;
+}
+
 /* Testimonial */
 
 .testimonial {
@@ -567,6 +573,10 @@ textarea {
     font-size: 10px;
   }
 
+  .youtubevid{
+    height: 200px;
+  }
+
   footer {
     flex-direction: column;
   }
@@ -748,6 +758,10 @@ textarea {
 
   .banner_p2 {
     font-size: 20px;
+  }
+
+  .youtubevid{
+    height: 300px;
   }
 
   /* h2 {
@@ -1223,6 +1237,10 @@ textarea {
     height: 400px;
     border-radius: 20%;
     margin-top: 40px;
+  }
+
+  .youtubevid{
+    height: 800px;
   }
 
   .footer-icon {
