@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="We guide you on how to get back to normal tracks after years of self-isolation and minimal social contribution.">
-    <meta name="author" content="Karem Al Aridi">
-    <link rel="shortcut icon" href="icon/logo.png">
-    <link rel="icon" type="image/png" href="icon/logo.png" sizes="16x16 32x32">
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/logo.png">
+    <meta
+      name="description"
+      content="We guide you on how to get back to normal tracks after years of self-isolation and minimal social contribution."
+    />
+    <meta name="author" content="Karem Al Aridi" />
+    <link rel="shortcut icon" href="icon/logo.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="icon/logo.png"
+      sizes="16x16 32x32"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/logo.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Back to Normal Life - Covid-19</title>
   </head>
@@ -16,7 +24,7 @@
     <!-- Nav -->
     <header>
       <a href="index.html"><img src="icon/logo.png" alt="Logo" /></a>
-      
+
       <!-- Shown -->
       <nav class="mainnav">
         <ul>
@@ -26,18 +34,24 @@
           <li><a href="contactus.html">Contact Us</a></li>
           <li><a href="getvaccinated.html">Get Vaccinated!</a></li>
         </ul>
+      </nav>
 
-        <!-- Hidden -->
-      </nav>
-      <nav class="smallnav">
-        <ul>
-          <li><a href="protection.html"><span class="fas fa-shield-alt" style="color: #0a2463;"></span></a></li>
-          <li><a href="normal.html"><span class="fas fa-user" style="color: #0a2463;"></span></a></li>
-          <li><a href="statistics.html"><span class="fas fa-chart-area" style="color: #0a2463;"></span></a></li>
-          <li><a href="contactus.html"><span class="fas fa-phone" style="color: #0a2463;"></span></a></li>
-          <li><a href="getvaccinated.html"><span class="fas fa-syringe" style="color: #0a2463;"></span></a></li>
-        </ul>
-      </nav>
+      <!-- Hidden -->
+      <div class="smallnav">
+        <input type="checkbox" id="menucheck" />
+        <label for="menucheck" class="menubtn"><span></span></label>
+        <label for="menucheck" class="menuclose"></label>
+        <div class="smallmenu">
+          <ul>
+            <li><a href="protection.html">Protect Yourself</a></li>
+            <li><a href="normal.html">Normal Life</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="getvaccinated.html">Get Vaccinated!</a></li>
+            <p class="copyright">&copy; Karem Al Aridi | 2021</p>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <div class="main">
@@ -78,7 +92,9 @@
           ></textarea
           ><br />
 
-          <button class="button">Share with us! <span class="fas fa-paper-plane"></span></button>
+          <button class="button">
+            Share with us! <span class="fas fa-paper-plane"></span>
+          </button>
         </form>
       </div>
     </div>
@@ -110,6 +126,7 @@
         <li><a href="statistics.html">Statistics</a></li>
         <li><a href="contactus.html">Contact Us</a></li>
         <li><a href="getvaccinated.html">Get Vaccinated!</a></li>
+        <p class="copyright">&copy; Karem Al Aridi | 2021</p>
       </ul>
     </footer>
     <script src="fontawesome.js"></script>
