@@ -486,7 +486,7 @@ textarea {
     background-color: blue;
   } */
 
-    /* Small Menu */
+    /* Small Menu Animation*/
 
   .smallmenu {
     position: fixed;
@@ -558,7 +558,7 @@ textarea {
   .smallmenu ul {
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 40%;
     height: 90%;
     transform: translate(-50%, -50%);
     list-style: none;
@@ -591,7 +591,7 @@ textarea {
   
   #menucheck:checked ~ .smallmenu ul li a {
     transition-timing-function: ease;
-    transition-delay: 0.4s;
+    transition-delay: 0.2s;
     transform: translateX(-100px);
   }
 
