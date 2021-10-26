@@ -581,6 +581,10 @@ textarea {
     flex-direction: column;
   }
 
+  footer div{
+    width: 80%;
+  }
+
   .footer-icon {
     font-size: 20px;
   }
